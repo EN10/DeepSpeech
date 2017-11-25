@@ -1,5 +1,6 @@
 # Deep Speech
 
+Based on [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech)  
 Tested on CS50.io
 
 ## Install DeepSpeech:
