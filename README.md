@@ -1,12 +1,13 @@
 # Deep Speech
 
-## Install Mozilla DeepSpeech on CS50:
+Tested on CS50.io
+
+## Install DeepSpeech:
 
     sudo pip install -U pip
-    sudo pip install tensorflow
     sudo pip install deepspeech
 
-## 7z
+## Install 7z
 
     sudo apt update
     sudo apt install p7zip-full
