@@ -22,3 +22,5 @@ Tested on CS50.io
 
 `tensorflow/core/platform/cpu_feature_guard.cc:35] The TensorFlow library was compiled to use AVX2 instructions, but these aren't available on your machine.
 Aborted`
+
+requires AVX2 see `less /proc/cpuinfo`
