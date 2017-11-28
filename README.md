@@ -18,14 +18,14 @@ Tested on CS50.io
 
     deepspeech output_graph.pb man1_wb.wav alphabet.txt
     
+## Free Space
+Recover deleted 7z files:  
+
+    git checkout output_graph.7z.00*
+    
 ## Error
 
 `tensorflow/core/platform/cpu_feature_guard.cc:35] The TensorFlow library was compiled to use AVX2 instructions, but these aren't available on your machine.
 Aborted`
 
 requires AVX2 see `less /proc/cpuinfo`
-
-## Free Space
-Recover deleted 7z files:  
-
-    git checkout output_graph.7z.00*
