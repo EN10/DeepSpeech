@@ -24,3 +24,8 @@ Tested on CS50.io
 Aborted`
 
 requires AVX2 see `less /proc/cpuinfo`
+
+## Free Space
+Recover deleted 7z files:  
+
+    git checkout output_graph.7z.00*
