@@ -8,17 +8,22 @@ Tested on CS50.io
     sudo pip install -U pip
     sudo pip install deepspeech
 
-## Install 7z
+## Install 7z & Extract Graph
 
     sudo apt update
     sudo apt install p7zip-full
     7z e output_graph.7z.001 
     
-## Run
+## Run DeepSpeech
+speech-to-text inference on WAVE file:
 
     deepspeech output_graph.pb man1_wb.wav alphabet.txt
     
 ## Free Space
+Delete 7z files:
+
+    rm output_graph.7z.00*
+
 Recover deleted 7z files:  
 
     git checkout output_graph.7z.00*
