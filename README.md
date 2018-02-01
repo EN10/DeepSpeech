@@ -27,7 +27,11 @@ Delete 7z files:
 Recover deleted 7z files:  
 
     git checkout output_graph.7z.00*
-    
+
+## Create 50MB volumes
+
+    7z a -mx9 -v50m output_graph.7z output_graph.pb
+ 
 ## Error
 
 `tensorflow/core/platform/cpu_feature_guard.cc:35] The TensorFlow library was compiled to use AVX2 instructions, but these aren't available on your machine.
