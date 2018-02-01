@@ -37,6 +37,8 @@ Download [latest release](https://github.com/mozilla/DeepSpeech/releases) model:
 Extract then Create 50MB volumes
 
     7z a -mx9 -v50m output_graph.7z output_graph.pb
+    
+codenvy faster than cs50.io
  
 ## Error
 
