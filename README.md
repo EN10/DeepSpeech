@@ -1,6 +1,6 @@
 # Deep Speech
 
-Based on [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech)  
+Based on [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) v0.1.1  
 Tested on CS50.io
 
 ## Install DeepSpeech:
@@ -28,7 +28,13 @@ Recover deleted 7z files:
 
     git checkout output_graph.7z.00*
 
-## Create 50MB volumes
+## Update output_graph.pb
+
+Download [latest release](https://github.com/mozilla/DeepSpeech/releases) model:
+
+    wget https://github.com/mozilla/DeepSpeech/releases/download/v0.1.1/deepspeech-0.1.1-models.tar.gz
+    
+Extract then Create 50MB volumes
 
     7z a -mx9 -v50m output_graph.7z output_graph.pb
  
