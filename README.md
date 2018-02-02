@@ -1,7 +1,9 @@
-# Deep Speech
+# DeepSpeech
 
-Based on [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) v0.1.1  
-Tested on CS50.io
+A Simplified Example of Speech Recognition  
+Based [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) (v0.1.1)  an open source Speech-To-Text engine.
+
+`Tested on CS50.io`
 
 ## Install DeepSpeech:
 
